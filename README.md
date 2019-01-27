@@ -131,7 +131,7 @@ class CatViews(object):
   __str__(self):
     # in python __str__ controls how this would look as a string
     if self.hidden:
-      return 'You cannot see me (I am ' + self.location ')'
+      return 'You cannot see me (I am ' + self.location + ')'
     else:
       return 'I am ' + self.location + ' and am ' + self.mood
 ```
